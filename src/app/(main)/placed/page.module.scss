@@ -1,0 +1,9 @@
+.message {
+    max-width: 380px;
+}
+
+@media only screen and (max-width: 600px) {
+    .container {
+        height: calc(100vh - 160px);
+    }
+}

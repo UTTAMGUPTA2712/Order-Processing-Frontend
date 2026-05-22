@@ -1,0 +1,20 @@
+version: "3"
+
+services:
+  orders:
+    container_name: order-processing-frontend
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    restart: always
+    networks:
+      - order_processing_frontend_network
+    ports:
+      - 80:3000
+    env_file: 
+      - .env
+
+networks:
+  order_processing_frontend_network:
+    name: order-processing-shared-network
+    external: true

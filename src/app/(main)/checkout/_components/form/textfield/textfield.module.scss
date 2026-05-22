@@ -1,0 +1,41 @@
+.input {
+  padding: 14px 12px;
+}
+
+.inputWithStartAdornment {
+  padding: 14px 12px 14px 0px;
+}
+
+.label {
+  top: -2px;
+}
+
+.startAdornment {
+  padding-left: "12px";
+}
+
+.background {
+  background-color: var(--white);
+}
+
+.endAdornment {
+  padding-right: 0px;
+}
+
+.placeholder::placeholder {
+  color: var(--error);
+}
+
+.squareBtn {
+  border-left: 1px solid var(--secondary-400);
+  padding: 24px 2px;
+}
+
+.endAdornmentError {
+  border-left: 1px solid var(--error);
+  padding: 24px 2px;
+}
+
+.shrinkedLabel {
+  top: 0;
+}

@@ -1,0 +1,61 @@
+.menu-appbar .menuPaper {
+  width: 200px;
+  margin-top: 6px;
+  border-radius: 4px;
+  margin-left: -4px;
+}
+
+.menu-appbar .ellipsisText {
+  max-width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  color: var(--secondary-800);
+}
+
+.menu-appbar li {
+  height: auto !important;
+  min-height: 40px !important;
+  padding: 4px 16px !important;
+  box-sizing: border-box;
+}
+
+.avatar {
+  color: var(--primary) !important;
+  width: 24px;
+  height: 24px;
+}
+
+.avatar.headerAvatar {
+  background-color: var(--white);
+}
+
+.avatar.listAvatar {
+  background-color: var(--white);
+  color: var(--secondary-800) !important;
+  svg{
+    font-size: 20px;
+  }
+}
+
+.toolbar-header {
+  padding: 0px 30px 0px 24px !important;
+}
+
+.menu-icon{
+  color: var(--white);
+  font-size: 20px !important;
+}
+
+.menu-items-container {
+  padding: 8px 12px;
+}
+
+/*  margin and padding */
+.margin-top-1 {
+  margin-top: 8px;
+}
+
+.padding-0 {
+  padding: 0;
+}
